@@ -7,6 +7,16 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="355dp"
+        android:layout_height="187dp"
+        android:ems="10"
+        android:hint="Ingrese comentarios"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="316dp" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -14,4 +24,145 @@
         android:text="Formularios de clase"
         tools:layout_editor_absoluteX="140dp"
         tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="273dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:hint="INGRESA NOMBR(S)"
+        android:inputType="text|textPersonName"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingresa Contraseña"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="107dp" />
+
+    <EditText
+        android:id="@+id/editTextNumberPassword"
+        android:layout_width="128dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:hint="Ingrese NIP"
+        android:inputType="numberPassword"
+        tools:layout_editor_absoluteX="267dp"
+        tools:layout_editor_absoluteY="93dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="369dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:hint="Ingrese correo"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="170dp" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese telefono"
+        android:inputType="phone"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="263dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPostalAddress"
+        android:layout_width="138dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:hint="Ingrese CP"
+        android:inputType="textPostalAddress"
+        tools:layout_editor_absoluteX="257dp"
+        tools:layout_editor_absoluteY="263dp" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese fecha"
+        android:inputType="date"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="502dp" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese codigo"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="566dp" />
+
+    <EditText
+        android:id="@+id/editTextTime"
+        android:layout_width="114dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Ingrese Hora"
+        android:inputType="time"
+        tools:layout_editor_absoluteX="260dp"
+        tools:layout_editor_absoluteY="510dp" />
+
+    <EditText
+        android:id="@+id/editTextNumberDecimal"
+        android:layout_width="122dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:hint="Ingrese costo"
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteX="252dp"
+        tools:layout_editor_absoluteY="570dp" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="340dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="Descripcion"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="627dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="123dp"
+        android:layout_height="42dp"
+        android:text="Registrar"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="678dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="117dp"
+        android:layout_height="46dp"
+        android:text="Cancelar"
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="679dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="199dp"
+        tools:layout_editor_absoluteY="104dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="337dp"
+        tools:layout_editor_absoluteY="444dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
