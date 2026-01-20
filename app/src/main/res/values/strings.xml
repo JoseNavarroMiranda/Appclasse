@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Aplicacion_UTJ</string>
+    <stringn name="titulo1"> ------Formulario------ </stringn>
+    <stringn name="nom"> INgresa nombre(s)</stringn>
+    <stringn name="contrasena"> Ingresa contraseña</stringn>
+    <stringn name="nip">ingresar NIP</stringn>
+    <stringn name="correo">Ingresar correo</stringn>
+    <stringn name="tel">Ingresar telefono</stringn>
+    <stringn name="cp">ingresar Codigo Postal</stringn>
+    <stringn name="mensaje">ingresar comentarios</stringn>
+    <stringn name="fecha">Ingresar fecha</stringn>
+    <stringn name="codigo">Ingresar codigo</stringn>
+    <stringn name="costo">Ingresar costo</stringn>
+    <stringn name="desc">Ingresar descripcion</stringn>
+    <stringn name="register">Registrar</stringn>
+    <stringn name="cancelar">Cancelar</stringn>
+
+    <!--Descripcion de producto -->
+
+    <string-array name="listaproductos">
+        <item>Producto 2</item>
+        <item>Producto 3</item>
+        <item>Producto 4</item>
+        <item>Producto 5</item>
+    </string-array>
+
+</resources>
