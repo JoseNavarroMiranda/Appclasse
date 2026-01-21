@@ -1,27 +1,31 @@
 <resources>
     <string name="app_name">Aplicacion_UTJ</string>
-    <stringn name="titulo1"> ------Formulario------ </stringn>
-    <stringn name="nom"> INgresa nombre(s)</stringn>
-    <stringn name="contrasena"> Ingresa contraseña</stringn>
-    <stringn name="nip">ingresar NIP</stringn>
-    <stringn name="correo">Ingresar correo</stringn>
-    <stringn name="tel">Ingresar telefono</stringn>
-    <stringn name="cp">ingresar Codigo Postal</stringn>
-    <stringn name="mensaje">ingresar comentarios</stringn>
-    <stringn name="fecha">Ingresar fecha</stringn>
-    <stringn name="codigo">Ingresar codigo</stringn>
-    <stringn name="costo">Ingresar costo</stringn>
-    <stringn name="desc">Ingresar descripcion</stringn>
-    <stringn name="register">Registrar</stringn>
-    <stringn name="cancelar">Cancelar</stringn>
+    <string name="titulo1">Formulario</string>
+    <string name="nom">Revisar datos</string>
+    <string name="contrasena">Revisar datos</string>
+    <string name="nip">Revisar datos</string>
+    <string name="correo">Revisar datos</string>
+    <string name="tel">Revisar datos</string>
+    <string name="cp">Revisar datos</string>
+    <string name="mensaje">Revisar datos</string>
+    <string name="fecha">Revisar datos</string>
+    <string name="codigo">Revisar datos</string>
+    <string name="costo">Revisar datos</string>
+    <string name="desc">Revisar datos</string>
+    <string name="register">Revisar datos</string>
+    <string name="cancelar">Revisar datos</string>
 
-    <!--Descripcion de producto -->
-
-    <string-array name="listaproductos">
-        <item>Producto 2</item>
-        <item>Producto 3</item>
-        <item>Producto 4</item>
-        <item>Producto 5</item>
+    <string-array name="lista_productos">
+        <item>Camisa</item>
+        <item>Calcetines</item>
+        <item>Calzones</item>
+        <item>Cadena</item>
+        <item>Zapatos</item>
+        <item>Tenis</item>
+        <item>Gorra</item>
+        <item>Pantalon</item>
+        <item>Reloj</item>
+        <item>Chamarra</item>
+        <item>Perfume</item>
     </string-array>
-
 </resources>

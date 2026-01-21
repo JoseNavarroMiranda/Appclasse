@@ -30,7 +30,7 @@
         android:layout_width="273dp"
         android:layout_height="39dp"
         android:ems="10"
-        android:hint="INGRESA NOMBR(S)"
+        android:hint="Ingresa Nombre(s)"
         android:inputType="text|textPersonName"
         tools:layout_editor_absoluteX="37dp"
         tools:layout_editor_absoluteY="54dp" />
