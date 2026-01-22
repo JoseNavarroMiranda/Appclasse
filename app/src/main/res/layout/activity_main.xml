@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/editTextText3"
+        android:id="@+id/editComent"
         android:layout_width="355dp"
         android:layout_height="187dp"
         android:ems="10"
@@ -26,9 +26,10 @@
         tools:layout_editor_absoluteY="16dp" />
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/nombredittxt"
         android:layout_width="273dp"
         android:layout_height="39dp"
+        android:drawableStart="@drawable/color_edit"
         android:ems="10"
         android:hint="Ingresa Nombre(s)"
         android:inputType="text|textPersonName"
@@ -36,7 +37,7 @@
         tools:layout_editor_absoluteY="54dp" />
 
     <EditText
-        android:id="@+id/editTextTextPassword2"
+        android:id="@+id/editPass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -46,7 +47,7 @@
         tools:layout_editor_absoluteY="107dp" />
 
     <EditText
-        android:id="@+id/editTextNumberPassword"
+        android:id="@+id/editNip"
         android:layout_width="128dp"
         android:layout_height="40dp"
         android:ems="10"
@@ -56,7 +57,7 @@
         tools:layout_editor_absoluteY="93dp" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/editEmail"
         android:layout_width="369dp"
         android:layout_height="60dp"
         android:ems="10"
@@ -66,7 +67,7 @@
         tools:layout_editor_absoluteY="170dp" />
 
     <EditText
-        android:id="@+id/editTextPhone"
+        android:id="@+id/editPhone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -76,7 +77,7 @@
         tools:layout_editor_absoluteY="263dp" />
 
     <EditText
-        android:id="@+id/editTextTextPostalAddress"
+        android:id="@+id/editCp"
         android:layout_width="138dp"
         android:layout_height="53dp"
         android:ems="10"
@@ -86,7 +87,7 @@
         tools:layout_editor_absoluteY="263dp" />
 
     <EditText
-        android:id="@+id/editTextDate"
+        android:id="@+id/editDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -96,7 +97,7 @@
         tools:layout_editor_absoluteY="502dp" />
 
     <EditText
-        android:id="@+id/editTextNumber"
+        android:id="@+id/editCode"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -106,7 +107,7 @@
         tools:layout_editor_absoluteY="566dp" />
 
     <EditText
-        android:id="@+id/editTextTime"
+        android:id="@+id/editTime"
         android:layout_width="114dp"
         android:layout_height="48dp"
         android:ems="10"
@@ -116,7 +117,7 @@
         tools:layout_editor_absoluteY="510dp" />
 
     <EditText
-        android:id="@+id/editTextNumberDecimal"
+        android:id="@+id/editCost"
         android:layout_width="122dp"
         android:layout_height="41dp"
         android:ems="10"
@@ -126,7 +127,7 @@
         tools:layout_editor_absoluteY="570dp" />
 
     <EditText
-        android:id="@+id/editTextText2"
+        android:id="@+id/editDescription"
         android:layout_width="340dp"
         android:layout_height="43dp"
         android:ems="10"
@@ -144,7 +145,7 @@
         tools:layout_editor_absoluteY="678dp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonCancel"
         android:layout_width="117dp"
         android:layout_height="46dp"
         android:text="Cancelar"
