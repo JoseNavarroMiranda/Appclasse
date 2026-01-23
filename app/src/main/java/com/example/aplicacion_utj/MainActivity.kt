@@ -1,15 +1,19 @@
 package com.example.aplicacion_utj
 
+import android.graphics.Color
 import android.os.Bundle
+import android.view.View
 import android.widget.ArrayAdapter
 import android.widget.AutoCompleteTextView
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import kotlin.toString
 
 class MainActivity : AppCompatActivity() {
 
@@ -45,7 +49,6 @@ class MainActivity : AppCompatActivity() {
 
         titulo = findViewById(R.id.textView)
         nom = findViewById(R.id.nombredittxt)
-
         correo = findViewById(R.id.editEmail)
         tel = findViewById(R.id.editPhone)
         con = findViewById(R.id.editPass)
@@ -64,9 +67,48 @@ class MainActivity : AppCompatActivity() {
 
         val adapter : ArrayAdapter<String> = ArrayAdapter<String>(this,
             android.R.layout.simple_dropdown_item_1line, productos)
-
         desc.setAdapter(adapter)
 
+
+        titulo.apply {
+            text = "FORMULARIO DE REGISTRO"
+            setTextColor(Color.CYAN)
+        }
+
+        titulo.setOnClickListener {
+            titulo.setTextColor(Color.BLUE)
+            Toast.makeText(this, "Cambio de color", Toast.LENGTH_SHORT).show()
+
+        }
+
+        cancel.setOnClickListener{
+                Toast.makeText(this, "Operacion cancelada", Toast.LENGTH_SHORT).show()
+        }
+
+        fun registrar(view: View?) {
+            if (nom.text.isNotEmpty() && con.text.isNotEmpty() && nip.text.isNotEmpty()) {
+                objCliente.nombre = nom.text.toString()
+                objCliente.contrasena = con.text.toString()
+                objCliente.nip = nip.text.toString().toInt()
+                objCliente.correo = correo.text.toString()
+                objCliente.telefono = tel.text.toString()
+                objCliente.cp = cp.text.toString().toInt()
+                objCliente.comentarios = comm.text.toString()
+
+                objProducto.fecha = fecha.text.toString()
+                objProducto.hora = hora.text.toString()
+                objProducto.codigo = codigo.text.toString().toInt()
+                objProducto.costo = costo.text.toString().toDouble()
+                objProducto.description = desc.text.toString()
+                Toast.makeText(
+                    this, "Nombre ${objCliente.nombre} registrado\n " +
+                            "Producto: ${objProducto.description} \n" +
+                            "Codigo:  ${objProducto.codigo}", Toast.LENGTH_SHORT
+                ).show()
+            } else {
+                Toast.makeText(this, "Faltan datos obligatorios", Toast.LENGTH_SHORT).show()
+            }
+        }
 
 
 
