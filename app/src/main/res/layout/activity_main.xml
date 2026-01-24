@@ -11,157 +11,154 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
         android:text="Formularios de clase"
-        tools:layout_editor_absoluteX="140dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
     <EditText
         android:id="@+id/nombredittxt"
-        android:layout_width="273dp"
-        android:layout_height="39dp"
-        android:drawableStart="@drawable/color_edit"
-        android:ems="10"
-        android:hint="Ingresa Nombre(s)"
-        android:inputType="text|textPersonName"
-        tools:layout_editor_absoluteX="37dp"
-        tools:layout_editor_absoluteY="54dp" />
-
-    <EditText
-        android:id="@+id/editPass"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Ingresa Contraseña"
-        android:inputType="textPassword"
-        tools:layout_editor_absoluteX="37dp"
-        tools:layout_editor_absoluteY="107dp" />
-
-    <EditText
-        android:id="@+id/editNip"
-        android:layout_width="128dp"
+        android:layout_width="209dp"
         android:layout_height="40dp"
         android:ems="10"
-        android:hint="Ingrese NIP"
-        android:inputType="numberPassword"
-        tools:layout_editor_absoluteX="267dp"
-        tools:layout_editor_absoluteY="93dp" />
+        android:hint="Ingresa tu nombre(s)"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.024" />
 
     <EditText
         android:id="@+id/editEmail"
-        android:layout_width="369dp"
-        android:layout_height="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Ingrese correo"
+        android:hint="Ingrese Correo"
         android:inputType="textEmailAddress"
-        tools:layout_editor_absoluteX="27dp"
-        tools:layout_editor_absoluteY="170dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nombredittxt"
+        app:layout_constraintVertical_bias="0.017" />
 
     <EditText
         android:id="@+id/editPhone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Ingrese telefono"
+        android:hint="Ingrese Telefono"
         android:inputType="phone"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="263dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editEmail"
+        app:layout_constraintVertical_bias="0.043" />
+
+    <EditText
+        android:id="@+id/editPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese Pass"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editPhone"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/editDescription"
+        android:layout_width="379dp"
+        android:layout_height="99dp"
+        android:hint="Ingrese descripcion"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editPass"
+        app:layout_constraintVertical_bias="0.067" />
+
+    <EditText
+        android:id="@+id/editNip"
+        android:layout_width="138dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:hint="Ingrese NIp"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/editDescription"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toEndOf="@+id/nombredittxt"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.089" />
 
     <EditText
         android:id="@+id/editCp"
-        android:layout_width="138dp"
-        android:layout_height="53dp"
+        android:layout_width="137dp"
+        android:layout_height="38dp"
         android:ems="10"
         android:hint="Ingrese CP"
-        android:inputType="textPostalAddress"
-        tools:layout_editor_absoluteX="257dp"
-        tools:layout_editor_absoluteY="263dp" />
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/editDescription"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toEndOf="@+id/editEmail"
+        app:layout_constraintTop_toBottomOf="@+id/editNip"
+        app:layout_constraintVertical_bias="0.06" />
+
+    <EditText
+        android:id="@+id/editComent"
+        android:layout_width="377dp"
+        android:layout_height="84dp"
+        android:ems="10"
+        android:hint="Ingrese comentarios"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editDescription"
+        app:layout_constraintVertical_bias="0.066" />
 
     <EditText
         android:id="@+id/editDate"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="156dp"
+        android:layout_height="59dp"
         android:ems="10"
         android:hint="Ingrese fecha"
         android:inputType="date"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="502dp" />
-
-    <EditText
-        android:id="@+id/editCode"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Ingrese codigo"
-        android:inputType="number"
-        tools:layout_editor_absoluteX="31dp"
-        tools:layout_editor_absoluteY="566dp" />
+        app:layout_constraintBottom_toTopOf="@+id/editDescription"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toEndOf="@+id/editPhone"
+        app:layout_constraintTop_toBottomOf="@+id/editCp"
+        app:layout_constraintVertical_bias="0.2" />
 
     <EditText
         android:id="@+id/editTime"
-        android:layout_width="114dp"
-        android:layout_height="48dp"
+        android:layout_width="153dp"
+        android:layout_height="47dp"
         android:ems="10"
-        android:hint="Ingrese Hora"
+        android:hint="Ingrese hora"
         android:inputType="time"
-        tools:layout_editor_absoluteX="260dp"
-        tools:layout_editor_absoluteY="510dp" />
-
-    <EditText
-        android:id="@+id/editCost"
-        android:layout_width="122dp"
-        android:layout_height="41dp"
-        android:ems="10"
-        android:hint="Ingrese costo"
-        android:inputType="numberDecimal"
-        tools:layout_editor_absoluteX="252dp"
-        tools:layout_editor_absoluteY="570dp" />
-
-    <EditText
-        android:id="@+id/editDescription"
-        android:layout_width="340dp"
-        android:layout_height="43dp"
-        android:ems="10"
-        android:hint="Descripcion"
-        android:inputType="text"
-        tools:layout_editor_absoluteX="39dp"
-        tools:layout_editor_absoluteY="627dp" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="123dp"
-        android:layout_height="42dp"
-        android:text="Registrar"
-        tools:layout_editor_absoluteX="49dp"
-        tools:layout_editor_absoluteY="678dp" />
-
-    <Button
-        android:id="@+id/buttonCancel"
-        android:layout_width="117dp"
-        android:layout_height="46dp"
-        android:text="Cancelar"
-        tools:layout_editor_absoluteX="253dp"
-        tools:layout_editor_absoluteY="679dp" />
-
-    <CheckBox
-        android:id="@+id/checkBox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="199dp"
-        tools:layout_editor_absoluteY="104dp" />
-
-    <CheckBox
-        android:id="@+id/checkBox2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="337dp"
-        tools:layout_editor_absoluteY="444dp" />
-
-    <AutoCompleteTextView
-        android:id="@+id/editComent"
-        android:layout_width="357dp"
-        android:layout_height="159dp"
-        android:hint="Ingrese comentarrio"
-        tools:layout_editor_absoluteX="31dp"
-        tools:layout_editor_absoluteY="337dp" />
+        app:layout_constraintBottom_toTopOf="@+id/editDescription"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toEndOf="@+id/editPass"
+        app:layout_constraintTop_toBottomOf="@+id/editDate"
+        app:layout_constraintVertical_bias="0.393" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
