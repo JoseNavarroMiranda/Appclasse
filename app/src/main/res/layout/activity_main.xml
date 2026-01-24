@@ -161,4 +161,54 @@
         app:layout_constraintTop_toBottomOf="@+id/editDate"
         app:layout_constraintVertical_bias="0.393" />
 
+    <EditText
+        android:id="@+id/editCode"
+        android:layout_width="173dp"
+        android:layout_height="56dp"
+        android:ems="10"
+        android:hint="Ingrese codigo"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editComent"
+        app:layout_constraintVertical_bias="0.124" />
+
+    <EditText
+        android:id="@+id/editCost"
+        android:layout_width="186dp"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:hint="Ingrese costo"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toEndOf="@+id/editCode"
+        app:layout_constraintTop_toBottomOf="@+id/editComent"
+        app:layout_constraintVertical_bias="0.123" />
+
+    <Button
+        android:id="@+id/buttonCancel"
+        android:layout_width="118dp"
+        android:layout_height="44dp"
+        android:text="cancelar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonRegistrar"
+        app:layout_constraintTop_toBottomOf="@+id/editCost" />
+
+    <Button
+        android:id="@+id/buttonRegistrar"
+        android:layout_width="117dp"
+        android:layout_height="41dp"
+        android:text="Registrar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonCancel"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editCost" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
