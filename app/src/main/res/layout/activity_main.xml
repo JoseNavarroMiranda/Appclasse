@@ -202,8 +202,8 @@
 
     <Button
         android:id="@+id/buttonRegistrar"
-        android:layout_width="117dp"
-        android:layout_height="41dp"
+        android:layout_width="118dp"
+        android:layout_height="44dp"
         android:text="Registrar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/buttonCancel"
